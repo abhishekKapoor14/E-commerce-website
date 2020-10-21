@@ -1,0 +1,35 @@
+.container{
+    margin-top:80px;
+}
+.col-md-7{
+    color: #555;
+    font-size:16px;
+    font-family:prompt;
+    padding: 11px 15px;
+}
+.carousel-caption{
+    color:#000;
+}
+.price{
+    color:#FE980f;
+    font-weight: bold;
+    font-size:20px;
+}
+input{
+    border:1px solid #ccc;
+    font-weight: bold;
+    height:30px;
+    text-align:center;
+    width:50px;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+.cart
+{
+    background: #53aeeb;
+    color: #000;
+    font-size: 15px;
+    margin-left: 20px;
+
+}

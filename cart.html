@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Bag</title>
+    <!--Bootstrap CDN-->
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="./css/style2.css" />
+    <!--font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/dd3c0cac45.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h6 class="display-1">MY SHOPPING BAG</h6>
+            <p>Checkout your bag, before pay the bill!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">ITEM</th>
+                            <th scope="col">ABOUT</th>
+                            <th scope="col">PRICE</th>
+                            <th scope="col">QTY</th>
+                            <th scope="col">TOTAL</th>
+                            <th scope="col">REMOVE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="./assets/img6.jpg" height="80" /></td>
+                            <td style="vertical-align: middle;">XYZ</td>
+                            <td style="vertical-align: middle;">999.00</td>
+                            <td style="vertical-align: middle;">
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        1
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">2</a>
+                                        <a class="dropdown-item" href="#">3</a>
+                                        <a class="dropdown-item" href="#">4</a>
+                                        <a class="dropdown-item" href="#">5</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">999/-</td>
+                            <td style="vertical-align: middle;"><i class="fas fa-times"></i></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./assets/img8.jpg" height="80" /></td>
+                            <td style="vertical-align: middle;">ABCD</td>
+                            <td style="vertical-align: middle;">1199.00</td>
+                            <td style="vertical-align: middle;">
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        1
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">2</a>
+                                        <a class="dropdown-item" href="#">3</a>
+                                        <a class="dropdown-item" href="#">4</a>
+                                        <a class="dropdown-item" href="#">5</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">1199/-</td>
+                            <td style="vertical-align: middle;"><i class="fas fa-times"></i></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./assets/img9.jpg" height="80" /></td>
+                            <td style="vertical-align: middle;">PQRS</td>
+                            <td style="vertical-align: middle;">1999.00</td>
+                            <td style="vertical-align: middle;">
+                                <div class="dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                        id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        1
+                                    </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="#">2</a>
+                                        <a class="dropdown-item" href="#">3</a>
+                                        <a class="dropdown-item" href="#">4</a>
+                                        <a class="dropdown-item" href="#">5</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="vertical-align: middle;">1999/-</td>
+                            <td style="vertical-align: middle;"><i class="fas fa-times"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <div class="row mx-md-12 bg-success">
+                <div class="col px-md-5 align-middle">
+                    <div class="p-3 ml-3 border bg-dark text-white">GRAND TOTAL: 2550/-</div>
+                </div>
+                <div class="col px-md-5 align-right">
+                    <div class="p-3 ml-3 border bg-light">
+                    <a href="#">CHECKOUT></a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
